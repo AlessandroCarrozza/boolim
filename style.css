@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover; 
+}
+
+/* contenitore nero-trasparente */
+.first-container{
+    width: 55%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.second-container{
+    width: 85%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+/* logo */
+header{
+    text-align: center;
+}
+
+header > img{
+    width: 20%;
+    height: auto;
+}
+
+/* title & buttons */
+nav{
+    text-align: center;
+}
+
+nav > h1{
+    color: lime;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav > div{
+    background-color: lime;
+    line-height: 40px;
+}
+
+/* info-monopattini */
+main h3{
+    display: inline-block;
+}
+
+main h3, main h5{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* batteria monopattini */
+.battery{
+    height: 25px;
+    border-radius: 5px;
+}
+
+.battery.orange{
+    width: 28%;
+    background-color: orange;
+}
+
+.battery.green{
+    width: 65%;
+    background-color: lime;
+}
+
+.battery.red{
+    width: 7%;
+    background-color: red;
+}
